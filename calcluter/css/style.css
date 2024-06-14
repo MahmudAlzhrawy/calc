@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.op {
+    flex-wrap: wrap;
+    max-height: 300px;
+    display: flex;
+    background-color: black;
+}
+
+.cal {
+    width: 200px;
+    text-align: center;
+    margin: 200px;
+}
+
+.col-3 button {
+    width: 50px;
+    padding: 15px;
+    margin-top: 2px;
+    background-color: black;
+    color: whitesmoke;
+    border-color: whitesmoke;
+}
+
+.col-6 button {
+    width: 100px;
+    padding: 15px;
+    margin-top: 2px;
+    background-color: cadetblue;
+}
+
+.tex input {
+    width: 200px;
+    pointer-events: none;
+    height: 30px;
+}
+
+button:active {
+    background-color: aqua;
+}
